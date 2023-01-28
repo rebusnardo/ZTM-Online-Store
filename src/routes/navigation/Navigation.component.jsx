@@ -28,7 +28,7 @@ const Navigation = () => {
         </LogoContainer>
 
         <NavLinks>
-          <p>Update: 26 Jan 2023</p>
+          <p>Update: 27 Jan 2023</p>
           <NavLink to="/shop">SHOP</NavLink>
           {currentUser ? (
             <NavLink as="span" onClick={signOutUser}>
