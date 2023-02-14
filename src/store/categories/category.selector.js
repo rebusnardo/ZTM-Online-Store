@@ -24,3 +24,8 @@ export const selectCategoriesMap = createSelector(
     }, {});
   }
 );
+
+export const selectCategoriesIsLoading = createSelector(
+  [selectCategoryReducer],
+  (cagetoriesSlice) => cagetoriesSlice.isLoading
+);
